@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    }
+    
+    .foodPanel {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    }
+    
+    
+    .pic {
+      height: 300px;
+      width: 300px;
+    
+    }
+    
+    .title {
+        font-size: 40px;
+    
+    }
+    
+    .header {
+        text-align: center;
+        font-size: 90px;
+    }
+    
+    a {
+        font-weight: bold;
+        font-family: Marhey, Arial;
+    color: black;
+    
+    }
+    
+    a:hover {
+    transition: 2s;
+        color: aqua;
+    }
